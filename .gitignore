@@ -29,3 +29,5 @@
 *.sql
 *.sqlite
 
+# autom4te.cache directory. Cause I don't like it. Hrmf.
+autom4te.cache
