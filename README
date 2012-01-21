@@ -1,0 +1,36 @@
+OVC2 Readme
+
+1.  Intro
+---------
+
+OVC2 aims to be a light weight video chat program. This project is based on
+the OVC (Open Video Chat) project started with the aim of bringing video chat
+to the XO laptops. The goal of this project is the expand on that work and
+provide a program that is efficient enough to run on all of the XOs already
+out there. OVC2 also aims to bring sound support to the OVC project.
+
+2.  Building
+------------
+
+At the moment, a normal GNU build should work (see the INSTALL file for way
+more details that you probably want):
+
+  $ ./configure
+  $ make
+  $ su
+  # make install
+
+To actually run this program on an XO you will have to compile it for an XO.
+This means you will probably need a chroot environment or pass lots of custom
+library paths to the configure script. This will be worked out more concretely
+as this project develops.
+
+Since the new XOs are moving to an ARM based Linux, cross compiles are going
+to be necessary for a non-native build. To learn how to do this, for now, hit
+google up.
+
+3.  Hacking
+-----------
+
+Patches are always welcome. Send them to me directly at 
+imNotListening@gmail.com. Don't worry, I promise I will listen to you :).
